@@ -17,11 +17,21 @@ A few iteresting formal relations:
     \item De Morgan's laws:
         \[ \left[ \bigcap _{i\in I}A_{i} \right] ^{c} = \bigcup _{i\in I}{A_{i}^{c}}, \]
         \[ \left[ \bigcup _{i\in I}A_{i} \right] ^{c} = \bigcap _{i\in I}{A_{i}^{c}}. \]
-    \item hello
+    \item Distributive property:
+        \[ A \cup (B \cap C) = (A \cup B) \cap (A \cup C), \]
+        \[ A \cap (B \cup C) = (A \cap B) \cup (A \cap C). \]
 \end{enumerate}
 
 \section{Functions}
-
+\begin{enumerate}
+    \item Suppose $f \colon A \to B$, and $C \subseteq A$.
+        Definition: $f(C) = \{ f(c) \ | \ c \in C \}$.
+    \item Suppose $D \subseteq B$. Definition: $f^{-1}(D) = \{ a \in A \ | \ f(a) \in D \}$.
+        This is overloaded by the inverse function, when the inverse function exists.
+    \item Definition: $f$ is \textit{injective} or \textit{one-to-one} if, for all $x, y \in A$,
+        \[ f(x) = f(y) \Rightarrow x = y. \]
+    \item Definition: $f$ is \textit{surjective} or \textit{onto} if $f(A) = B$.
+\end{enumerate}
 \section{Groups}
 
 \end{document}
